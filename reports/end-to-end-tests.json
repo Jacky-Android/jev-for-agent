@@ -1,0 +1,33 @@
+{
+  "source_mode": "observed_local_test_execution",
+  "contract": "Synthetic required core checkout test, fractional discount",
+  "tests": {
+    "before": {
+      "exit_code": 1,
+      "output": "test_fractional_discount (test_order.CoreCheckoutTests.test_fractional_discount) ... FAIL\ntest_no_discount (test_order.CoreCheckoutTests.test_no_discount) ... ok\n\n======================================================================\nFAIL: test_fractional_discount (test_order.CoreCheckoutTests.test_fractional_discount)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/private<fixture-workspace>/test_order.py\", line 5, in test_fractional_discount\n    self.assertEqual(total([10, 20], .1), 27)\nAssertionError: 29.9 != 27\n\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nFAILED (failures=1)\n"
+    },
+    "after": {
+      "exit_code": 0,
+      "output": "test_fractional_discount (test_order.CoreCheckoutTests.test_fractional_discount) ... ok\ntest_no_discount (test_order.CoreCheckoutTests.test_no_discount) ... ok\n\n----------------------------------------------------------------------\nRan 2 tests in 0.000s\n\nOK\n"
+    }
+  },
+  "gates": {
+    "cause": {
+      "route": "act",
+      "value": "logic_bug",
+      "policy": "example/default"
+    },
+    "impact": {
+      "route": "act",
+      "value": 2,
+      "policy": "example/default"
+    },
+    "blocks_core": {
+      "route": "act",
+      "value": true,
+      "noul": 0.97,
+      "derived_certainty": 0.94,
+      "policy": "example/default"
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "provider": "openrouter",
+  "actual_model": "typesafe/jev-1.13-20260917",
+  "reported_model": "typesafe/jev-1.13-20260917",
+  "requested_model": "~typesafe/jev-latest",
+  "model_resolution": "response",
+  "request_status": "success",
+  "source_mode": "live",
+  "answers": {
+    "cause": {
+      "type": "choice",
+      "choice": "logic_bug",
+      "probabilities": {
+        "other": 0,
+        "test_data": 0.01,
+        "logic_bug": 0.99,
+        "environment": 0,
+        "dependency": 0
+      },
+      "confidence": 0.98
+    },
+    "impact": {
+      "type": "score",
+      "score": 2,
+      "legend": {
+        "0": "Non-blocking: core checkout remains correct; only presentation is affected.",
+        "1": "Partial block: an optional checkout feature fails but core totals remain correct.",
+        "2": "Critical block: core checkout totals are incorrect or its required validation fails."
+      },
+      "probabilities": {
+        "0": 0,
+        "1": 0,
+        "2": 1
+      },
+      "confidence": 1
+    },
+    "blocks_core": {
+      "type": "noul",
+      "noul": 0.97
+    }
+  },
+  "raw_response": {
+    "model": "typesafe/jev-1.13-20260917",
+    "answers": {
+      "cause": {
+        "type": "choice",
+        "choice": "logic_bug",
+        "probabilities": {
+          "other": 0,
+          "test_data": 0.01,
+          "logic_bug": 0.99,
+          "environment": 0,
+          "dependency": 0
+        },
+        "confidence": 0.98
+      },
+      "impact": {
+        "type": "score",
+        "score": 2,
+        "legend": {
+          "0": "Non-blocking: core checkout remains correct; only presentation is affected.",
+          "1": "Partial block: an optional checkout feature fails but core totals remain correct.",
+          "2": "Critical block: core checkout totals are incorrect or its required validation fails."
+        },
+        "probabilities": {
+          "0": 0,
+          "1": 0,
+          "2": 1
+        },
+        "confidence": 1
+      },
+      "blocks_core": {
+        "type": "noul",
+        "noul": 0.97
+      }
+    },
+    "usage": {
+      "input_tokens": 612,
+      "output_tokens": 86,
+      "cost": 2.5704e-05
+    },
+    "id": "gen-dec-1791121119-ijKq20J5jDjOPPNTCpnr",
+    "provider": "TypeSafe"
+  },
+  "usage": {
+    "input_tokens": 612,
+    "output_tokens": 86,
+    "cost": 2.5704e-05
+  },
+  "latency_ms": 928.31,
+  "request_id": "gen-dec-1791121119-ijKq20J5jDjOPPNTCpnr"
+}

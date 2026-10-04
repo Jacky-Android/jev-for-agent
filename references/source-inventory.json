@@ -1,0 +1,787 @@
+[
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/agent-skill/",
+    "download_status": "downloaded",
+    "bytes": 22646
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/api/",
+    "download_status": "downloaded",
+    "bytes": 34140
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/concepts/how-to-build-with-system-one/",
+    "download_status": "downloaded",
+    "bytes": 103864
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/concepts/state/",
+    "download_status": "downloaded",
+    "bytes": 47900
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/concepts/system-one/",
+    "download_status": "downloaded",
+    "bytes": 48255
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/concepts/use-case-map/",
+    "download_status": "downloaded",
+    "bytes": 28032
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/confidence/",
+    "download_status": "downloaded",
+    "bytes": 80719
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/cookbooks/",
+    "download_status": "downloaded",
+    "bytes": 20947
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/cookbooks/autoformat/",
+    "download_status": "downloaded",
+    "bytes": 71435
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/cookbooks/autoresearch_feature_discovery/",
+    "download_status": "downloaded",
+    "bytes": 125510
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/cookbooks/citation_check/",
+    "download_status": "downloaded",
+    "bytes": 58941
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/cookbooks/classification_using_confidence/",
+    "download_status": "downloaded",
+    "bytes": 77366
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/cookbooks/classifying_rag_passages/",
+    "download_status": "downloaded",
+    "bytes": 82480
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/cookbooks/consistency_choice_cookbook/",
+    "download_status": "downloaded",
+    "bytes": 83643
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/cookbooks/consistency_noul_cookbook/",
+    "download_status": "downloaded",
+    "bytes": 64819
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/cookbooks/date_extraction_cookbook/",
+    "download_status": "downloaded",
+    "bytes": 68735
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/cookbooks/entity_alignment/",
+    "download_status": "downloaded",
+    "bytes": 62278
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/cookbooks/function_calling/",
+    "download_status": "downloaded",
+    "bytes": 47978
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/cookbooks/hierarchical_classification/",
+    "download_status": "downloaded",
+    "bytes": 85334
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/cookbooks/llm_guardrails/",
+    "download_status": "downloaded",
+    "bytes": 69664
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/cookbooks/parallel_questions/",
+    "download_status": "downloaded",
+    "bytes": 76768
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/cookbooks/pre_parsed_value_extraction_cookbook/",
+    "download_status": "downloaded",
+    "bytes": 55203
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/cookbooks/rerank_typesafe/",
+    "download_status": "downloaded",
+    "bytes": 55916
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/cookbooks/sde_cascade/",
+    "download_status": "downloaded",
+    "bytes": 80301
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/cookbooks/semantic_find/",
+    "download_status": "downloaded",
+    "bytes": 65118
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/cookbooks/skill_suggestion/",
+    "download_status": "downloaded",
+    "bytes": 74122
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/demos/",
+    "download_status": "downloaded",
+    "bytes": 14402
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/demos/smart-home/",
+    "download_status": "downloaded",
+    "bytes": 28487
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/introduction/",
+    "download_status": "downloaded",
+    "bytes": 55456
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/introduction/coding-agents/",
+    "download_status": "downloaded",
+    "bytes": 19717
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/introduction/machine-learning-primer/",
+    "download_status": "downloaded",
+    "bytes": 21111
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/introduction/quickstart/",
+    "download_status": "downloaded",
+    "bytes": 27507
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/legal/",
+    "download_status": "downloaded",
+    "bytes": 14862
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/materials/clef/",
+    "download_status": "downloaded",
+    "bytes": 34691
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/materials/laya-arch/",
+    "download_status": "downloaded",
+    "bytes": 40624
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/materials/laya-oss/",
+    "download_status": "downloaded",
+    "bytes": 20829
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/materials/laya-trend/",
+    "download_status": "downloaded",
+    "bytes": 18287
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/materials/polydao/",
+    "download_status": "downloaded",
+    "bytes": 40630
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/materials/rerank-lab/",
+    "download_status": "downloaded",
+    "bytes": 25928
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/model-jaggedness/jev-1.13/",
+    "download_status": "downloaded",
+    "bytes": 49562
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/models/",
+    "download_status": "downloaded",
+    "bytes": 44745
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/patterns/",
+    "download_status": "downloaded",
+    "bytes": 74022
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/patterns/composite-scoring/",
+    "download_status": "downloaded",
+    "bytes": 83903
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/patterns/confidence-routing/",
+    "download_status": "downloaded",
+    "bytes": 80565
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/patterns/fan-out/",
+    "download_status": "downloaded",
+    "bytes": 84139
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/patterns/intent-routing/",
+    "download_status": "downloaded",
+    "bytes": 83167
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/primitives/",
+    "download_status": "downloaded",
+    "bytes": 107674
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/primitives/advanced/",
+    "download_status": "downloaded",
+    "bytes": 106855
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/primitives/choice/",
+    "download_status": "downloaded",
+    "bytes": 114174
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/primitives/noul/",
+    "download_status": "downloaded",
+    "bytes": 111661
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/primitives/score/",
+    "download_status": "downloaded",
+    "bytes": 118206
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/",
+    "download_status": "downloaded",
+    "bytes": 14410
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/",
+    "download_status": "downloaded",
+    "bytes": 16036
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/",
+    "download_status": "downloaded",
+    "bytes": 18292
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/classes/APIConnectionError/",
+    "download_status": "downloaded",
+    "bytes": 16692
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/classes/APIError/",
+    "download_status": "downloaded",
+    "bytes": 19683
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/classes/APIPromise/",
+    "download_status": "downloaded",
+    "bytes": 22759
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/classes/APITimeoutError/",
+    "download_status": "downloaded",
+    "bytes": 16970
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/classes/APIUserAbortError/",
+    "download_status": "downloaded",
+    "bytes": 16511
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/classes/AuthenticationError/",
+    "download_status": "downloaded",
+    "bytes": 19765
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/classes/BadRequestError/",
+    "download_status": "downloaded",
+    "bytes": 19747
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/classes/InternalServerError/",
+    "download_status": "downloaded",
+    "bytes": 19769
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/classes/NotFoundError/",
+    "download_status": "downloaded",
+    "bytes": 19769
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/classes/PermissionDeniedError/",
+    "download_status": "downloaded",
+    "bytes": 19764
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/classes/RateLimitError/",
+    "download_status": "downloaded",
+    "bytes": 20213
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/classes/TypeSafeClient/",
+    "download_status": "downloaded",
+    "bytes": 22091
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/classes/TypeSafeError/",
+    "download_status": "downloaded",
+    "bytes": 16794
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/classes/UnprocessableEntityError/",
+    "download_status": "downloaded",
+    "bytes": 19791
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/functions/choice/",
+    "download_status": "downloaded",
+    "bytes": 16629
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/functions/noul/",
+    "download_status": "downloaded",
+    "bytes": 17134
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/functions/score/",
+    "download_status": "downloaded",
+    "bytes": 16638
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/interfaces/ChoiceQuestion/",
+    "download_status": "downloaded",
+    "bytes": 17023
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/interfaces/ChoiceResponse/",
+    "download_status": "downloaded",
+    "bytes": 17377
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/interfaces/Logger/",
+    "download_status": "downloaded",
+    "bytes": 17578
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/interfaces/ModelCard/",
+    "download_status": "downloaded",
+    "bytes": 16414
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/interfaces/Models/",
+    "download_status": "downloaded",
+    "bytes": 16097
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/interfaces/NoulQuestion/",
+    "download_status": "downloaded",
+    "bytes": 17611
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/interfaces/NoulResponse/",
+    "download_status": "downloaded",
+    "bytes": 16117
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/interfaces/Questions/",
+    "download_status": "downloaded",
+    "bytes": 15736
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/interfaces/RequestOptions/",
+    "download_status": "downloaded",
+    "bytes": 17113
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/interfaces/RetryPolicy/",
+    "download_status": "downloaded",
+    "bytes": 19741
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/interfaces/ScoreQuestion/",
+    "download_status": "downloaded",
+    "bytes": 16996
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/interfaces/ScoreResponse/",
+    "download_status": "downloaded",
+    "bytes": 17790
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/interfaces/SystemOneRequest/",
+    "download_status": "downloaded",
+    "bytes": 17360
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/interfaces/SystemOneRequestPayload/",
+    "download_status": "downloaded",
+    "bytes": 17422
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/interfaces/SystemOneResult/",
+    "download_status": "downloaded",
+    "bytes": 16965
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/interfaces/TypeSafeClientConfig/",
+    "download_status": "downloaded",
+    "bytes": 20198
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/interfaces/Usage/",
+    "download_status": "downloaded",
+    "bytes": 16228
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/interfaces/WithResponse/",
+    "download_status": "downloaded",
+    "bytes": 16806
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/type-aliases/ChoiceCriteria/",
+    "download_status": "downloaded",
+    "bytes": 15953
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/type-aliases/Description/",
+    "download_status": "downloaded",
+    "bytes": 15572
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/type-aliases/EntryType/",
+    "download_status": "downloaded",
+    "bytes": 15640
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/type-aliases/EnvVar/",
+    "download_status": "downloaded",
+    "bytes": 15470
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/type-aliases/Fetch/",
+    "download_status": "downloaded",
+    "bytes": 16053
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/type-aliases/JsonValue/",
+    "download_status": "downloaded",
+    "bytes": 15590
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/type-aliases/LogLevel/",
+    "download_status": "downloaded",
+    "bytes": 15623
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/type-aliases/Question/",
+    "download_status": "downloaded",
+    "bytes": 15577
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/type-aliases/ResultFor/",
+    "download_status": "downloaded",
+    "bytes": 16078
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/type-aliases/ScoreCriteria/",
+    "download_status": "downloaded",
+    "bytes": 15646
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/type-aliases/ScoreLegend/",
+    "download_status": "downloaded",
+    "bytes": 15944
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/type-aliases/ScoreOf/",
+    "download_status": "downloaded",
+    "bytes": 16020
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/variables/ENV/",
+    "download_status": "downloaded",
+    "bytes": 17484
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/variables/LOG_LEVELS/",
+    "download_status": "downloaded",
+    "bytes": 15519
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/api/variables/VERSION/",
+    "download_status": "downloaded",
+    "bytes": 15483
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/javascript/changelog/",
+    "download_status": "downloaded",
+    "bytes": 15173
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/python/",
+    "download_status": "downloaded",
+    "bytes": 18879
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/python/api/",
+    "download_status": "downloaded",
+    "bytes": 14951
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/python/api/clients/async/",
+    "download_status": "downloaded",
+    "bytes": 49394
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/python/api/clients/sync/",
+    "download_status": "downloaded",
+    "bytes": 48857
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/python/api/constants/",
+    "download_status": "downloaded",
+    "bytes": 18507
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/python/api/exceptions/",
+    "download_status": "downloaded",
+    "bytes": 24570
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/python/api/retries/",
+    "download_status": "downloaded",
+    "bytes": 31139
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/python/api/types/common/",
+    "download_status": "downloaded",
+    "bytes": 17119
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/python/api/types/questions/",
+    "download_status": "downloaded",
+    "bytes": 49483
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/python/api/types/responses/",
+    "download_status": "downloaded",
+    "bytes": 65854
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/python/changelog/",
+    "download_status": "downloaded",
+    "bytes": 17273
+  },
+  {
+    "url": "https://datawhalechina.github.io/jev-cookbook/sdk/python/usage/",
+    "download_status": "downloaded",
+    "bytes": 28502
+  },
+  {
+    "url": "https://docs.typesafe.ai/agent-skill.md",
+    "download_status": "downloaded",
+    "bytes": 5911
+  },
+  {
+    "url": "https://docs.typesafe.ai/api.md",
+    "download_status": "downloaded",
+    "bytes": 11344
+  },
+  {
+    "url": "https://docs.typesafe.ai/concepts/state.md",
+    "download_status": "downloaded",
+    "bytes": 3669
+  },
+  {
+    "url": "https://docs.typesafe.ai/concepts/system-one.md",
+    "download_status": "downloaded",
+    "bytes": 3903
+  },
+  {
+    "url": "https://docs.typesafe.ai/confidence.md",
+    "download_status": "downloaded",
+    "bytes": 24090
+  },
+  {
+    "url": "https://docs.typesafe.ai/introduction/coding-agents.md",
+    "download_status": "downloaded",
+    "bytes": 3934
+  },
+  {
+    "url": "https://docs.typesafe.ai/introduction/machine-learning-primer.md",
+    "download_status": "downloaded",
+    "bytes": 6693
+  },
+  {
+    "url": "https://docs.typesafe.ai/models.md",
+    "download_status": "downloaded",
+    "bytes": 6684
+  },
+  {
+    "url": "https://docs.typesafe.ai/patterns.md",
+    "download_status": "downloaded",
+    "bytes": 1590
+  },
+  {
+    "url": "https://docs.typesafe.ai/patterns/composite-scoring.md",
+    "download_status": "downloaded",
+    "bytes": 13658
+  },
+  {
+    "url": "https://docs.typesafe.ai/patterns/confidence-routing.md",
+    "download_status": "downloaded",
+    "bytes": 12281
+  },
+  {
+    "url": "https://docs.typesafe.ai/patterns/fan-out.md",
+    "download_status": "downloaded",
+    "bytes": 14080
+  },
+  {
+    "url": "https://docs.typesafe.ai/patterns/intent-routing.md",
+    "download_status": "downloaded",
+    "bytes": 13557
+  },
+  {
+    "url": "https://docs.typesafe.ai/primitives.md",
+    "download_status": "downloaded",
+    "bytes": 24185
+  },
+  {
+    "url": "https://docs.typesafe.ai/primitives/advanced.md",
+    "download_status": "downloaded",
+    "bytes": 18943
+  },
+  {
+    "url": "https://docs.typesafe.ai/primitives/choice.md",
+    "download_status": "downloaded",
+    "bytes": 26907
+  },
+  {
+    "url": "https://docs.typesafe.ai/primitives/noul.md",
+    "download_status": "downloaded",
+    "bytes": 26498
+  },
+  {
+    "url": "https://docs.typesafe.ai/primitives/score.md",
+    "download_status": "downloaded",
+    "bytes": 43770
+  },
+  {
+    "url": "https://docs.typesafe.ai/sdk/javascript.md",
+    "download_status": "downloaded",
+    "bytes": 1415
+  },
+  {
+    "url": "https://docs.typesafe.ai/sdk/python.md",
+    "download_status": "downloaded",
+    "bytes": 3827
+  },
+  {
+    "url": "https://docs.typesafe.ai/sdk/python/api/types/questions.md",
+    "download_status": "downloaded",
+    "bytes": 30129
+  },
+  {
+    "url": "https://docs.typesafe.ai/sdk/python/api/types/responses.md",
+    "download_status": "downloaded",
+    "bytes": 38738
+  },
+  {
+    "url": "https://jevgallery.com/guides/jev-api-quickstart/",
+    "download_status": "downloaded",
+    "bytes": 13283
+  },
+  {
+    "url": "https://jevgallery.com/guides/jev-browser-automation/",
+    "download_status": "downloaded",
+    "bytes": 12795
+  },
+  {
+    "url": "https://jevgallery.com/guides/jev-citation-verification/",
+    "download_status": "downloaded",
+    "bytes": 12414
+  },
+  {
+    "url": "https://jevgallery.com/guides/jev-claude-code-context-compaction/",
+    "download_status": "downloaded",
+    "bytes": 11936
+  },
+  {
+    "url": "https://jevgallery.com/guides/jev-content-moderation/",
+    "download_status": "downloaded",
+    "bytes": 11782
+  },
+  {
+    "url": "https://jevgallery.com/guides/jev-feishu-message-triage/",
+    "download_status": "downloaded",
+    "bytes": 13889
+  },
+  {
+    "url": "https://jevgallery.com/guides/jev-game-npc/",
+    "download_status": "downloaded",
+    "bytes": 12175
+  },
+  {
+    "url": "https://jevgallery.com/guides/jev-mcp-setup/",
+    "download_status": "downloaded",
+    "bytes": 12501
+  },
+  {
+    "url": "https://jevgallery.com/guides/jev-n8n-workflow/",
+    "download_status": "downloaded",
+    "bytes": 12136
+  },
+  {
+    "url": "https://jevgallery.com/guides/jev-playwright-semantic-testing/",
+    "download_status": "downloaded",
+    "bytes": 14914
+  },
+  {
+    "url": "https://jevgallery.com/guides/jev-prompt-examples/",
+    "download_status": "downloaded",
+    "bytes": 14746
+  },
+  {
+    "url": "https://jevgallery.com/guides/jev-python-record-linkage/",
+    "download_status": "downloaded",
+    "bytes": 14061
+  },
+  {
+    "url": "https://jevgallery.com/guides/jev-rag-reranking/",
+    "download_status": "downloaded",
+    "bytes": 12974
+  },
+  {
+    "url": "https://jevgallery.com/guides/jev-text-classification/",
+    "download_status": "downloaded",
+    "bytes": 14788
+  },
+  {
+    "url": "https://jevgallery.com/guides/jev-video-analysis/",
+    "download_status": "failed",
+    "bytes": 0
+  },
+  {
+    "url": "https://jevgallery.com/guides/jev-vs-llm/",
+    "download_status": "downloaded",
+    "bytes": 14549
+  },
+  {
+    "url": "https://jevgallery.com/guides/jev-writing-quality-checks/",
+    "download_status": "downloaded",
+    "bytes": 14411
+  },
+  {
+    "url": "https://jevgallery.com/guides/what-is-jev/",
+    "download_status": "downloaded",
+    "bytes": 11113
+  }
+]

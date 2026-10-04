@@ -1,0 +1,188 @@
+{
+  "agent": "Codex",
+  "environment": {
+    "TYPESAFE_API_KEY": "missing",
+    "OPENROUTER_API_KEY": "configured",
+    "JEV_PROVIDER": "missing",
+    "JEV_MODEL": "missing",
+    "JEV_MCP_MODEL": "missing",
+    "TYPESAFE_DEFAULT_MODEL": "missing",
+    "TYPESAFE_BASE_URL": "missing",
+    "JEV_OPENROUTER_BASE_URL": "missing",
+    "JEV_API_KEY": "missing",
+    "JEV_API_BASE_URL": "missing",
+    "JEV_MCP_REQUEST_TIMEOUT_MS": "missing",
+    "JEV_MCP_MAX_ATTEMPTS": "missing",
+    "JEV_CLOUDFLARE_API_TOKEN": "missing",
+    "CLOUDFLARE_API_TOKEN": "missing",
+    "CLOUDFLARE_ACCOUNT_ID": "missing",
+    "AI_GATEWAY_API_KEY": "missing"
+  },
+  "mcp": [
+    {
+      "name": "jev",
+      "source": "codex-user",
+      "transport": "stdio",
+      "jev_name_hint": true,
+      "credential_status": {
+        "OPENROUTER_API_KEY": "configured"
+      },
+      "server_started": "PASS",
+      "tools_discovered": "PASS",
+      "live_inference": "not_tested",
+      "implementation": "jev-mcp",
+      "client_version": "0.12.0",
+      "tools": [
+        {
+          "name": "jev_verify",
+          "generic_state_questions": false,
+          "primitive_hints": [],
+          "semantic_candidate": true,
+          "confirmed_compatible": false
+        },
+        {
+          "name": "jev_screen",
+          "generic_state_questions": false,
+          "primitive_hints": [],
+          "semantic_candidate": true,
+          "confirmed_compatible": false
+        },
+        {
+          "name": "jev_noul",
+          "generic_state_questions": false,
+          "primitive_hints": [],
+          "semantic_candidate": true,
+          "confirmed_compatible": false
+        },
+        {
+          "name": "jev_find",
+          "generic_state_questions": false,
+          "primitive_hints": [
+            "choice",
+            "score",
+            "noul"
+          ],
+          "semantic_candidate": true,
+          "confirmed_compatible": false
+        },
+        {
+          "name": "jev_classify",
+          "generic_state_questions": false,
+          "primitive_hints": [
+            "choice"
+          ],
+          "semantic_candidate": true,
+          "confirmed_compatible": false
+        },
+        {
+          "name": "jev_decide",
+          "generic_state_questions": false,
+          "primitive_hints": [
+            "choice"
+          ],
+          "semantic_candidate": true,
+          "confirmed_compatible": false
+        },
+        {
+          "name": "jev_rerank",
+          "generic_state_questions": false,
+          "primitive_hints": [
+            "score"
+          ],
+          "semantic_candidate": true,
+          "confirmed_compatible": false
+        },
+        {
+          "name": "jev_compare",
+          "generic_state_questions": false,
+          "primitive_hints": [],
+          "semantic_candidate": true,
+          "confirmed_compatible": false
+        },
+        {
+          "name": "jev_extract",
+          "generic_state_questions": false,
+          "primitive_hints": [],
+          "semantic_candidate": true,
+          "confirmed_compatible": false
+        },
+        {
+          "name": "jev_audit",
+          "generic_state_questions": false,
+          "primitive_hints": [],
+          "semantic_candidate": false,
+          "confirmed_compatible": false
+        },
+        {
+          "name": "jev_review",
+          "generic_state_questions": false,
+          "primitive_hints": [
+            "score"
+          ],
+          "semantic_candidate": true,
+          "confirmed_compatible": false
+        },
+        {
+          "name": "jev_gate",
+          "generic_state_questions": false,
+          "primitive_hints": [
+            "score"
+          ],
+          "semantic_candidate": true,
+          "confirmed_compatible": false
+        }
+      ]
+    },
+    {
+      "name": "node_repl",
+      "source": "codex-user",
+      "transport": "stdio",
+      "jev_name_hint": false,
+      "credential_status": {},
+      "server_started": "not_tested",
+      "tools_discovered": "not_tested",
+      "live_inference": "not_tested"
+    },
+    {
+      "name": "computer-use",
+      "source": "codex-user",
+      "transport": "stdio",
+      "jev_name_hint": false,
+      "credential_status": {},
+      "server_started": "not_tested",
+      "tools_discovered": "not_tested",
+      "live_inference": "not_tested"
+    }
+  ],
+  "agent_tools": [],
+  "sdk": {
+    "python": [],
+    "javascript": [
+      {
+        "name": "@typesafe-ai/sdk",
+        "version": "0.6.0",
+        "scope": "local_or_cached"
+      },
+      {
+        "name": "@jkudish/jev-mcp",
+        "version": "0.13.0",
+        "scope": "local_or_cached"
+      }
+    ]
+  },
+  "executables": {
+    "jev-mcp": "missing",
+    "typesafe-mcp": "missing",
+    "node": "available",
+    "uv": "available"
+  },
+  "config_issues": [],
+  "provider": "mcp",
+  "model": {
+    "configured_alias": null,
+    "resolved_actual_model": null
+  },
+  "status": "PARTIAL",
+  "live_inference": "not_tested",
+  "configured_billing_provider": "openrouter"
+}

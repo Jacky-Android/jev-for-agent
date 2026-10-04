@@ -1,0 +1,56 @@
+test_bad_mcp_payload (test_adapters.AdapterTests.test_bad_mcp_payload) ... ok
+test_correct_endpoint_and_raw_preserved (test_adapters.AdapterTests.test_correct_endpoint_and_raw_preserved) ... ok
+test_curl_secret_not_in_argv (test_adapters.AdapterTests.test_curl_secret_not_in_argv) ... ok
+test_discovery_does_not_claim_compatibility (test_adapters.AdapterTests.test_discovery_does_not_claim_compatibility) ... ok
+test_generic_mcp_both_envelopes (test_adapters.AdapterTests.test_generic_mcp_both_envelopes) ... ok
+test_http_failure_body_suppressed (test_adapters.AdapterTests.test_http_failure_body_suppressed) ... ok
+test_network_failure_no_retry (test_adapters.AdapterTests.test_network_failure_no_retry) ... ok
+test_rate_limit_bounded_retry (test_adapters.AdapterTests.test_rate_limit_bounded_retry) ... ok
+test_specialized_mcp_cannot_take_generic_packet (test_adapters.AdapterTests.test_specialized_mcp_cannot_take_generic_packet) ... ok
+test_compiles_only_judgments (test_compiler.CompilerTests.test_compiles_only_judgments) ... ok
+test_dependent_questions_rejected (test_compiler.CompilerTests.test_dependent_questions_rejected) ... ok
+test_no_semantic_questions_no_call (test_compiler.CompilerTests.test_no_semantic_questions_no_call) ... ok
+test_claude_install_location (test_doctor_install.DiscoveryTests.test_claude_install_location) ... ok
+test_configuration_redaction (test_doctor_install.DiscoveryTests.test_configuration_redaction) ... ok
+test_install_and_refuse_overwrite (test_doctor_install.DiscoveryTests.test_install_and_refuse_overwrite) ... ok
+test_unknown_name_metadata_not_compatibility (test_doctor_install.DiscoveryTests.test_unknown_name_metadata_not_compatibility) ... ok
+test_all_primitives (test_live_jev.LiveTests.test_all_primitives) ... ok
+test_duplicate_descriptions (test_packet_validation.PacketTests.test_duplicate_descriptions) ... ok
+test_duplicate_keys (test_packet_validation.PacketTests.test_duplicate_keys) ... ok
+test_empty_instructions (test_packet_validation.PacketTests.test_empty_instructions) ... ok
+test_fixture_answers_not_live (test_packet_validation.PacketTests.test_fixture_answers_not_live) ... ok
+test_invalid_states (test_packet_validation.PacketTests.test_invalid_states) ... ok
+test_missing_answer (test_packet_validation.PacketTests.test_missing_answer) ... ok
+test_noul_no_native_confidence (test_packet_validation.PacketTests.test_noul_no_native_confidence) ... ok
+test_noul_schema (test_packet_validation.PacketTests.test_noul_schema) ... ok
+test_numeric_structured_state (test_packet_validation.PacketTests.test_numeric_structured_state) ... ok
+test_score_boundaries (test_packet_validation.PacketTests.test_score_boundaries) ... ok
+test_score_legend (test_packet_validation.PacketTests.test_score_legend) ... ok
+test_structured (test_packet_validation.PacketTests.test_structured) ... ok
+test_valid (test_packet_validation.PacketTests.test_valid) ... ok
+test_high_risk (test_policy.PolicyTests.test_high_risk) ... ok
+test_negative_is_not_positive_action (test_policy.PolicyTests.test_negative_is_not_positive_action) ... ok
+test_no_permission (test_policy.PolicyTests.test_no_permission) ... ok
+test_stale (test_policy.PolicyTests.test_stale) ... ok
+test_uncertain_noul (test_policy.PolicyTests.test_uncertain_noul) ... ok
+test_openrouter_decision_discovery_not_chat_default (test_provider_selection.ModelTests.test_openrouter_decision_discovery_not_chat_default) ... ok
+test_refuse_chat_router (test_provider_selection.ModelTests.test_refuse_chat_router) ... ok
+test_actual_from_response (test_provider_selection.SelectionTests.test_actual_from_response) ... ok
+test_existing_billing (test_provider_selection.SelectionTests.test_existing_billing) ... ok
+test_explicit (test_provider_selection.SelectionTests.test_explicit) ... ok
+test_mcp_first (test_provider_selection.SelectionTests.test_mcp_first) ... ok
+test_no_credential (test_provider_selection.SelectionTests.test_no_credential) ... ok
+test_no_silent_switch (test_provider_selection.SelectionTests.test_no_silent_switch) ... ok
+test_normalized_missing_not_zero (test_provider_selection.SelectionTests.test_normalized_missing_not_zero) ... ok
+test_typesafe_before_router (test_provider_selection.SelectionTests.test_typesafe_before_router) ... ok
+test_explicit_provider_overrides_ambiguous_other_configs (test_provider_selection.SessionSelectionTests.test_explicit_provider_overrides_ambiguous_other_configs) ... ok
+test_credential_field (test_security.SecurityTests.test_credential_field) ... ok
+test_harmless_state (test_security.SecurityTests.test_harmless_state) ... ok
+test_secret_rejected_and_redacted (test_security.SecurityTests.test_secret_rejected_and_redacted) ... ok
+test_secret_value_in_criteria_still_rejected (test_security.SecurityTests.test_secret_value_in_criteria_still_rejected) ... ok
+test_semantic_labels_preserved (test_security.SecurityTests.test_semantic_labels_preserved) ... ok
+
+----------------------------------------------------------------------
+Ran 51 tests in 3.251s
+
+OK

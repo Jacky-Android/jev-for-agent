@@ -1,0 +1,37 @@
+{
+  "state": {
+    "test_output": "total([10,20],0.1) returned 29.9; expected 27. Core checkout test failed.",
+    "source": "def total(values,discount): return sum(values)-discount",
+    "contract": "discount is a fraction of the complete order subtotal."
+  },
+  "questions": {
+    "cause": {
+      "type": "choice",
+      "instructions": "Which failure category best explains test_output together with source and contract? Do not perform arithmetic; focus on the operation semantics.",
+      "criteria": {
+        "dependency": "A missing or incompatible library prevents correct execution.",
+        "logic_bug": "Implemented operation conflicts with the documented contract.",
+        "environment": "Runtime or machine setup prevents correct execution.",
+        "test_data": "The test data violates the documented input contract.",
+        "other": "Evidence does not establish any listed cause."
+      }
+    },
+    "impact": {
+      "type": "score",
+      "instructions": "What functional impact is established by test_output for the core checkout?",
+      "criteria": [
+        "Non-blocking: core checkout remains correct; only presentation is affected.",
+        "Partial block: an optional checkout feature fails but core totals remain correct.",
+        "Critical block: core checkout totals are incorrect or its required validation fails."
+      ]
+    },
+    "blocks_core": {
+      "type": "noul",
+      "instructions": "Does test_output explicitly report a failure of a required core checkout test?",
+      "criteria": {
+        "true": "A required core checkout test explicitly failed.",
+        "false": "Only optional tests failed or no core test failure is evidenced."
+      }
+    }
+  }
+}

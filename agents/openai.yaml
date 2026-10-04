@@ -1,0 +1,6 @@
+interface:
+  display_name: "Jev for Agent"
+  short_description: "Use real Jev decisions inside coding agent workflows"
+  default_prompt: "Use $jev-for-agent to inspect my task, verify the existing Jev environment, and use bounded semantic judgments before continuing execution."
+policy:
+  allow_implicit_invocation: true

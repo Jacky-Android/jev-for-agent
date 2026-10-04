@@ -1,0 +1,44 @@
+{
+  "source_mode": "live",
+  "transport": "existing_agent_mcp",
+  "billing_provider": "openrouter",
+  "model_identity_note": "Wrapper reports requested slug; direct API verification records response model separately.",
+  "calls": [
+    {
+      "primitive": "choice",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"tool\": \"jev_classify\",\n  \"model\": \"typesafe/jev-1.13\",\n  \"provider\": \"openrouter\",\n  \"summary\": {\n    \"items\": 1,\n    \"auto\": 1,\n    \"review\": 0,\n    \"invalid_response\": 0,\n    \"by_class\": {\n      \"bug\": 1\n    }\n  },\n  \"thresholds\": {\n    \"auto_accept\": 0.85,\n    \"minimum_margin\": 0.5\n  },\n  \"results\": [\n    {\n      \"id\": \"smoke\",\n      \"classification\": \"bug\",\n      \"probabilities\": {\n        \"bug\": 1,\n        \"question\": 0,\n        \"other\": 0\n      },\n      \"confidence\": 1,\n      \"margin\": 1,\n      \"top_probability\": 1,\n      \"decision\": \"auto\"\n    }\n  ],\n  \"usage\": {\n    \"input_tokens\": 455,\n    \"output_tokens\": 43\n  }\n}"
+          }
+        ]
+      },
+      "latency_ms": 851
+    },
+    {
+      "primitive": "score",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"tool\": \"jev_review\",\n  \"model\": \"typesafe/jev-1.13\",\n  \"provider\": \"openrouter\",\n  \"truncated\": false,\n  \"safe_to_apply\": 0.54,\n  \"scores\": {\n    \"correctness\": {\n      \"score\": 1.98,\n      \"confidence\": 0.96,\n      \"probabilities\": {\n        \"0\": 0,\n        \"1\": 0.02,\n        \"2\": 0.98\n      }\n    },\n    \"spec_match\": {\n      \"score\": 1.99,\n      \"confidence\": 0.99,\n      \"probabilities\": {\n        \"0\": 0,\n        \"1\": 0,\n        \"2\": 1\n      }\n    },\n    \"test_gap\": {\n      \"score\": 1.84,\n      \"confidence\": 0.76,\n      \"probabilities\": {\n        \"0\": 0.07,\n        \"1\": 0.02,\n        \"2\": 0.91\n      }\n    },\n    \"blast_radius\": {\n      \"score\": 0.18,\n      \"confidence\": 0.73,\n      \"probabilities\": {\n        \"0\": 0.89,\n        \"1\": 0.03,\n        \"2\": 0.08\n      }\n    }\n  },\n  \"weights\": {\n    \"correctness\": 0.4,\n    \"spec_match\": 0.3,\n    \"test_gap\": 0.15,\n    \"blast_radius\": 0.15\n  },\n  \"thresholds\": {\n    \"auto_accept\": 0.8,\n    \"review_at\": 0.5,\n    \"composite_floor\": 0.7\n  },\n  \"action\": \"review\",\n  \"composite\": 0.843,\n  \"reason_codes\": [\n    \"safe_to_apply_below_auto_accept\",\n    \"confidence_below_auto_accept\"\n  ],\n  \"limiting_rubrics\": [\n    \"blast_radius\"\n  ],\n  \"usage\": {\n    \"input_tokens\": 761,\n    \"output_tokens\": 79\n  }\n}"
+          }
+        ]
+      },
+      "latency_ms": 280
+    },
+    {
+      "primitive": "noul",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\n  \"tool\": \"jev_noul\",\n  \"model\": \"typesafe/jev-1.13\",\n  \"provider\": \"openrouter\",\n  \"status\": \"ok\",\n  \"results\": [\n    {\n      \"id\": \"proposition0\",\n      \"proposition\": \"The release note explicitly requires a migration before restarting version 2.\",\n      \"probability\": 0.98,\n      \"label\": \"likely\",\n      \"auto\": true\n    }\n  ],\n  \"thresholds\": {\n    \"auto_accept\": 0.85\n  },\n  \"usage\": {\n    \"input_tokens\": 409,\n    \"output_tokens\": 25\n  }\n}"
+          }
+        ]
+      },
+      "latency_ms": 281
+    }
+  ]
+}

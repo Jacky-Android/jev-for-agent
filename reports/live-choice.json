@@ -1,0 +1,61 @@
+{
+  "checked_at": "2026-10-04T13:37:53.917817+00:00",
+  "source_mode": "live",
+  "results": [
+    {
+      "primitive": "choice",
+      "status": "PASS",
+      "checks": "response shape, range, keys, distribution, legend (Score)",
+      "result": {
+        "provider": "openrouter",
+        "actual_model": "typesafe/jev-1.13-20260917",
+        "reported_model": "typesafe/jev-1.13-20260917",
+        "requested_model": "~typesafe/jev-latest",
+        "model_resolution": "response",
+        "request_status": "success",
+        "source_mode": "live",
+        "answers": {
+          "category": {
+            "type": "choice",
+            "choice": "migration",
+            "probabilities": {
+              "migration": 1,
+              "password": 0,
+              "none": 0
+            },
+            "confidence": 1
+          }
+        },
+        "raw_response": {
+          "model": "typesafe/jev-1.13-20260917",
+          "answers": {
+            "category": {
+              "type": "choice",
+              "choice": "migration",
+              "probabilities": {
+                "migration": 1,
+                "password": 0,
+                "none": 0
+              },
+              "confidence": 1
+            }
+          },
+          "usage": {
+            "input_tokens": 386,
+            "output_tokens": 38,
+            "cost": 1.6212e-05
+          },
+          "id": "gen-dec-1791121073-r23kDxIcok0khWbMWWDi",
+          "provider": "TypeSafe"
+        },
+        "usage": {
+          "input_tokens": 386,
+          "output_tokens": 38,
+          "cost": 1.6212e-05
+        },
+        "latency_ms": 736.044,
+        "request_id": "gen-dec-1791121073-r23kDxIcok0khWbMWWDi"
+      }
+    }
+  ]
+}

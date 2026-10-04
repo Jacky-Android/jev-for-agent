@@ -1,0 +1,16 @@
+{
+  "state": {
+    "release_note": "Version 2 changes settings storage. Run the settings migration before restarting. The Export button previously created empty files; the fix is included."
+  },
+  "questions": {
+    "category": {
+      "type": "choice",
+      "instructions": "What is the primary operational requirement stated by release_note before restarting version 2?",
+      "criteria": {
+        "migration": "A settings or data migration must run before restart.",
+        "password": "A password must be reset before restart.",
+        "none": "No prerequisite is stated or evidence is insufficient."
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+--- order.py (before)
++++ order.py (after)
+@@ -1,2 +1,2 @@
+ def total(values, discount):
+-    return sum(values) - discount
++    return sum(values) * (1 - discount)

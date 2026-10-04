@@ -1,0 +1,79 @@
+{
+  "goal": "检查当前测试失败，判断最优先的问题，再修改代码。",
+  "inputs": [
+    "observed test output",
+    "source excerpt"
+  ],
+  "constraints": [
+    "Use only observed evidence",
+    "Do not publish changes"
+  ],
+  "candidate_actions": [
+    "inspect total calculation",
+    "gather evidence"
+  ],
+  "risk": "local_reversible",
+  "required_output": "Patch and observed test outcome",
+  "state": {
+    "test_output": "total([10,20],0.1) returned 29.9; expected 27. Core checkout test failed.",
+    "source": "def total(values,discount): return sum(values)-discount",
+    "contract": "discount is a fraction of the complete order subtotal."
+  },
+  "steps": [
+    {
+      "id": "cause",
+      "kind": "semantic_judgment",
+      "question": {
+        "type": "choice",
+        "instructions": "Which failure category best explains test_output together with source and contract? Do not perform arithmetic; focus on the operation semantics.",
+        "criteria": {
+          "dependency": "A missing or incompatible library prevents correct execution.",
+          "logic_bug": "Implemented operation conflicts with the documented contract.",
+          "environment": "Runtime or machine setup prevents correct execution.",
+          "test_data": "The test data violates the documented input contract.",
+          "other": "Evidence does not establish any listed cause."
+        }
+      }
+    },
+    {
+      "id": "impact",
+      "kind": "semantic_judgment",
+      "question": {
+        "type": "score",
+        "instructions": "What functional impact is established by test_output for the core checkout?",
+        "criteria": [
+          "Non-blocking: core checkout remains correct; only presentation is affected.",
+          "Partial block: an optional checkout feature fails but core totals remain correct.",
+          "Critical block: core checkout totals are incorrect or its required validation fails."
+        ]
+      }
+    },
+    {
+      "id": "blocks_core",
+      "kind": "semantic_judgment",
+      "question": {
+        "type": "noul",
+        "instructions": "Does test_output explicitly report a failure of a required core checkout test?",
+        "criteria": {
+          "true": "A required core checkout test explicitly failed.",
+          "false": "Only optional tests failed or no core test failure is evidenced."
+        }
+      }
+    },
+    {
+      "id": "calculate",
+      "kind": "deterministic_code",
+      "description": "Compute expected total from the documented fractional-discount contract."
+    },
+    {
+      "id": "patch",
+      "kind": "generative_work",
+      "description": "Inspect and write the smallest correct code patch."
+    },
+    {
+      "id": "test",
+      "kind": "tool_execution",
+      "description": "Run focused tests and report their observed output."
+    }
+  ]
+}

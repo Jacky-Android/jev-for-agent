@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-10-04T13:48:13.622850+00:00",
+  "skill_format": "PASS (quick_validate.py)",
+  "offline_and_live_unittest": "51 PASS, 0 skipped",
+  "end_to_end": "2 PASS after Agent repair",
+  "packet_static_checks": "PASS",
+  "local_markdown_links": "PASS",
+  "secret_and_personal_path_scan": "PASS",
+  "scan_scope": "Known process/MCP credential values, common token formats, personal absolute paths, .env files; not a general DLP guarantee",
+  "installation": "Claude and Codex temporary project installs PASS; user global directories unchanged",
+  "provider": "openrouter",
+  "actual_model": "typesafe/jev-1.13-20260917",
+  "choice": "PASS",
+  "score": "PASS",
+  "noul": "PASS",
+  "limitations": [
+    "TypeSafe Direct live unverified",
+    "Generic state/questions MCP live unverified",
+    "Claude Code actual host activation unverified",
+    "Chinese calibration unverified"
+  ]
+}
