@@ -240,3 +240,7 @@ API key 不进入 state、tool arguments、日志、错误正文或 Git。请求
 ## 来源
 
 按当天官方 Docs/API → 官方 SDK 类型 → OpenRouter 官方 → TypeSafe Skill → Blog → Datawhale → Gallery → 用户 PDF → 第三方 MCP 顺序处理接口冲突。完整链接、采集覆盖和当前版本边界见 [SOURCES.md](references/SOURCES.md)。
+## 感谢
+https://jevgallery.com/guides/
+
+https://datawhalechina.github.io/jev-cookbook/
