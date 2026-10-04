@@ -8,6 +8,10 @@
 
 它在实际任务中检测现有 Jev 能力，由 Agent 把自然语言目标拆成 `state + questions`，真实调用 Choice / Score / Noul，再把判断交回 Agent 执行。官方 TypeSafe skill 帮助开发 TypeSafe 应用；本项目帮助正在执行任务的 Agent 使用现有服务。
 
+Jev 负责“判断”；
+Claude / Codex 负责“理解、规划、生成、编码与执行”；
+普通程序代码负责“计算、验证、权限、状态和确定性操作”。
+
 ## 已完成的真实验证
 
 2026-10-04，通过 **OpenRouter Decisions API**，真实响应模型 **typesafe/jev-1.13-20260917**：
