@@ -4,14 +4,32 @@
 >
 > **Think deeply. Decide swiftly.**
 
-将 Jev 作为 Claude Code / Codex 的运行时语义判断层。**Jev decides. Code acts. Agent orchestrates.**
+将 Jev 作为 Claude Code / Codex 的运行时语义判断层。
+
+**Jev decides. Code acts. Agent orchestrates.**
 
 它在实际任务中检测现有 Jev 能力，由 Agent 把自然语言目标拆成 `state + questions`，真实调用 Choice / Score / Noul，再把判断交回 Agent 执行。官方 TypeSafe skill 帮助开发 TypeSafe 应用；本项目帮助正在执行任务的 Agent 使用现有服务。
 
 Jev 负责“判断”；
 Claude / Codex 负责“理解、规划、生成、编码与执行”；
 普通程序代码负责“计算、验证、权限、状态和确定性操作”。
+A 理解目标。 提取 goal / inputs / constraints / candidate_actions / risk / required_output。读取真实输入和必要文件，区分观察与推断。
 
+B 分工。 标记每一步为 semantic_judgment / deterministic_code / generative_work / tool_execution。分类、路由、候选选择、相关性、支持关系、优先级、质量/风险等级、模糊但有边界的条件适合 Jev。写作、代码生成、解释、多跳推理交给 Agent；算术、计数、精确日期比较、数据库查询、权限及文件/浏览器/部署动作交给代码或工具。没有适合的判断就继续原任务，不为调用 Jev 人为制造问题。
+
+C 选 Primitive。 已知有限候选选一项 → Choice；明确条件是否成立 → Noul；沿有序量规判断程度 → Score。多个独立维度分题，不能把“紧急/技术/退款”混成同一个单选维度。
+
+D 构造 state。 用最小充分证据，例如 {task,target,evidence,constraints,current_state,reference_time}。候选必须可回取，时间来自明确时区；缺少证据先获取，不能凭任务标题假造事实。图片/音频先由适当工具转写，再注明转写范围。
+
+E 完整问题。 每题独立写全 instructions；ID 只供程序读取，不能代替意义。Choice 各候选与 Score 各等级必须有完整定义。Agent 按 COMPILER.md 写语义计划，compile_packet.py 将已编译问题静态校验后输出 packet。这个 Python 脚本不声称理解任意自然语言；自然语言编译由当前 Claude/Codex 完成。
+
+F 真实调用。 同 state 的独立问题放进一次请求。有 Q1 答案后才能得到的新证据/候选，必须下一轮请求；禁止同一 request 的 Q2 使用“根据 Q1 的答案”。先运行 validate_packet.py，再调用真实 MCP 或 evaluate.py。JSON 示例只有输入，没有捏造的答案。重试仅有界处理限流/过载，不能对未变输入反复采样直到得到满意结果。
+
+G 门控。 校验答案 ID、type、候选、概率范围与分布；Score 保留 legend；记录实际模型、Provider、usage、latency、request_id 及原始响应。缺失字段保留未知。随后代码检查权限、business rules、freshness、输入和副作用。policy.gate 提供 act / review / abstain / gather_more_evidence 示例策略，不是实际权限执行系统；act 只表示判断可被使用，仍需业务动作规则。
+
+H Agent 执行。 使用判断继续研究、写作、修改代码、调用工具与测试，保持用户目标、范围和授权。Jev 自身不运行任何动作。Noul 的高置信否定必须走 false 分支，不能因“确定”而执行肯定动作。
+
+I 有界复核。 新产物需要检查时，可再让 Jev 判断约束、保留原意、风险或证据支持关系，然后 Agent 修订。默认最多两轮修订（本 skill 示例策略）；到预算、证据无变化、持续分歧或服务错误就停止追加调用并明确未决项。测试/源码证据优先，不能把模型同意当执行成功。
 ## 已完成的真实验证
 
 2026-10-04，通过 **OpenRouter Decisions API**，真实响应模型 **typesafe/jev-1.13-20260917**：
